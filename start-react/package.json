@@ -9,7 +9,9 @@
   },
   "scripts": {
     "start": "react-scripts start",
+    "start:test": "REACT_APP_SECRET_CODE=test react-scripts start",
     "build": "react-scripts build",
+    "build:test": "REACT_APP_SECRET_CODE=test react-scripts build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
   }
